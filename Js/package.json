@@ -1,0 +1,17 @@
+{
+  "name": "alinity-lis-listener",
+  "version": "1.0.0",
+  "description": "ASTM protocol listener for Abbott Alinity ci",
+  "main": "alinity-listener.js",
+  "scripts": {
+    "start": "node alinity-listener.js",
+    "dev": "nodemon alinity-listener.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
